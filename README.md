@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente, los scripts de análisis y la metod
 
 El objetivo principal del proyecto es la detección y delimitación automática de 14 rasgos anatómicos (como poros, distintos tipos de parénquima y radios leñosos) estandarizados por la IAWA en imágenes macroscópicas de madera, apoyando así los procesos de inspección aduanera y control de deforestación (Reglamento EUDR 2023/1115).
 
-## 🚀 Desafíos Técnicos y Aportaciones
+## Desafíos Técnicos y Aportaciones
 El principal desafío abordado en este trabajo es el **desequilibrio de clases extremo (ratio de 1790:1)**  dado así en las estructuras biológicas de la madera. Para mitigarlo, se ha implementado un *pipeline* experimental iterativo que incluye:
 
 1. Transformación algorítmica de anotaciones morfológicas de expertos a *bounding boxes* (YOLO format).
